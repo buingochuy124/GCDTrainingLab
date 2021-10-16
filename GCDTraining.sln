@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckTriangle", "CheckTrian
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricBill", "ElectricBill\ElectricBill.csproj", "{1A9C528E-FC52-4871-BB4E-7EC059F69C4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeKimTuThapSo", "VeKimTuThapSo\VeKimTuThapSo.csproj", "{E469B506-E570-4EEC-B507-38D0EE53674D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1A9C528E-FC52-4871-BB4E-7EC059F69C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A9C528E-FC52-4871-BB4E-7EC059F69C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A9C528E-FC52-4871-BB4E-7EC059F69C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E469B506-E570-4EEC-B507-38D0EE53674D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E469B506-E570-4EEC-B507-38D0EE53674D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E469B506-E570-4EEC-B507-38D0EE53674D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E469B506-E570-4EEC-B507-38D0EE53674D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
