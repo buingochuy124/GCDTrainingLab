@@ -36,7 +36,7 @@ namespace CalculateRootOfQuadraticEquation
             }
             else
             {
-                Console.WriteLine($"Phuong trinh co 2 nghiem kep x1 =  {-b - Math.Sqrt(delta) / (2*a)  }   va x2 = {-b + Math.Sqrt(delta) / (2 * a) } ");
+                Console.WriteLine($"Phuong trinh co 2 nghiem kep x1 =  {(-b - Math.Sqrt(delta)) / (2*a)  }   va x2 = {(-b + Math.Sqrt(delta)) / (2 * a) } ");
             }
             Console.ReadLine();
         }
