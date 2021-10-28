@@ -1,34 +1,70 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Method
 {
     class Program
     {
-        
-       
-        static string ClassName(string a)
+        static void Add(int c, int d)
         {
-            return a;
+            int tong = c + d;
+            Console.WriteLine("tong :     " + tong);
         }
-        static int StudentId(int b)
+        static int Tru(int a, int b)
         {
-            return b;
+            int hieu = a - b;
+            return hieu;
         }
-        static void PrintNameOfTruong()
+        static void PrintMenu()
         {
-            Console.WriteLine("University of Greenwich");
+            Console.WriteLine("1. Phepcong");
+            Console.WriteLine("2. Pheptru");
+            Console.WriteLine("3. Phepnhan");
+            Console.WriteLine("4. Phepchia");
+            Console.WriteLine("5. thoat chuong trinh");
+
+            Console.WriteLine("================");
+
+
+
+
+
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine(ClassName("GCD CLASS"));
-            Console.WriteLine(StudentId(10));
-            PrintNameOfTruong();
+            int option = 0;
+
+            while (option != 5)
+            {
+
+                PrintMenu();
+
+                option = int.Parse(Console.ReadLine());
+                switch (option)
+                {
+                    case 1:
+                        Console.WriteLine("nhap so a:    ");
+
+                        int a = int.Parse(Console.ReadLine());
+                        Console.WriteLine("nhap so b:    ");
+
+                        int b = int.Parse(Console.ReadLine());
+
+                        Add(a, b);
+                        break;
+
+                    case 2:
+                        //phep tru
+                        break;
+                    default:
+                        break;
+                }
+
+            }
+
+
             Console.ReadLine();
+
         }
     }
 }
