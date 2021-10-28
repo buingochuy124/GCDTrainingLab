@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method", "Method\Method.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThuNgay", "ThuNgay\ThuNgay.csproj", "{1A55D932-CA96-42DB-A1EB-F93759634897}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array", "array\array.csproj", "{8C900BC2-AF2D-4C3B-9B11-F6B9A9577612}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{1A55D932-CA96-42DB-A1EB-F93759634897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A55D932-CA96-42DB-A1EB-F93759634897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A55D932-CA96-42DB-A1EB-F93759634897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C900BC2-AF2D-4C3B-9B11-F6B9A9577612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C900BC2-AF2D-4C3B-9B11-F6B9A9577612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C900BC2-AF2D-4C3B-9B11-F6B9A9577612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C900BC2-AF2D-4C3B-9B11-F6B9A9577612}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
