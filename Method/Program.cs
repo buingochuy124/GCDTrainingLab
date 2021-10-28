@@ -9,35 +9,26 @@ namespace Method
     class Program
     {
         
-        static int GetSum(int a , int b)
-        {
-            int sum = a + b;
-            return sum;
-        }
        
-        static int GetTru(int a , int b)
+        static string ClassName(string a)
         {
-            int Tru = 0;
-            if (a >= b)
-            {
-                 Tru = a - b;
-            }
-            else
-            {
-                 Tru = b - a;
-
-            }
-            return Tru;
-
+            return a;
+        }
+        static int StudentId(int b)
+        {
+            return b;
+        }
+        static void PrintNameOfTruong()
+        {
+            Console.WriteLine("University of Greenwich");
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine(GetSum(1, 5));
-            Console.WriteLine(GetTru(1, 5));
-
+            Console.WriteLine(ClassName("GCD CLASS"));
+            Console.WriteLine(StudentId(10));
+            PrintNameOfTruong();
             Console.ReadLine();
-
         }
     }
 }
