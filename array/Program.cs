@@ -10,24 +10,23 @@ namespace array
     {
         static void Main(string[] args)
         {
-            int[] array = new int[] { 100, 60, 70, 10 , 100};
+            string a = "Greenwich's Club of Developers";
+           
 
+            string[] arr = new string[a.Length];
 
-            int a = int.Parse(Console.ReadLine());
-            int count = 0;
-
-            for (int i = 0; i < array.Length; i++)
+            int n = a.Length;
+            string b = "";
+            for (int i = 0; i < n; i++)
             {
-                if(a == array[i])
-                {
-                   // count = count + 1;
-                    count++;
-                }
+                 b = a.Substring(n - 1);
+                 
             }
-            Console.WriteLine($"so {a} duoc lap lai {count} lan");
-
-            Console.Read();
-
-            }
+            
+            
+            
+            Console.WriteLine(b);
+            Console.ReadLine();
+        }
     }
 }
